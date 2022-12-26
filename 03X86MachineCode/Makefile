@@ -11,16 +11,20 @@
 
 # for C files
 CC = gcc
-CCFLAGS += -Wall -Wextra -pedantic-errors -Wshadow
+CCFLAGS += -Wall -Wextra -Wshadow
+# CCFLAGS += -pedantic-errors # to use GCC extension
 CCFLAGS += -Wno-unused-parameter
+CCFLAGS += -mavx2 # to use AVX-2 instructions
 
 # for C++ files
 # add your own include path/library path/link library to CXXFLAGS
 CXX = g++
 CXXFLAGS += -std=c++20
-CXXFLAGS += -Wall -Wextra -pedantic-errors -Wshadow
+CXXFLAGS += -Wall -Wextra -Wshadow
+# CXXFLAGS += -pedantic-errors
 # CXXFLAGS += -Wfatal-errors
 CXXFLAGS += -Wno-unused-parameter
+CXXFLAGS += -mavx2
 RM = rm
 
 # debug
@@ -71,6 +75,13 @@ all : $(all_targets) $(all_preprocessed_files) $(all_asm_files) $(all_object_fil
 	-$(CXX) -c $^ -o $@ $(CXXFLAGS)
 %.o : %.c
 	-$(CC) -c $^ -o $@ $(CCFLAGS)
+
+# test of environments
+test_windows.s : test_env.c
+	-$(CC) -S $^ -o $@ $(CCFLAGS)
+test_linux.s : test_env.c
+	-$(CC) -S $^ -o $@ $(CCFLAGS)
+
 
 # system: affect how to clean and executable file name
 # value: windows/unix

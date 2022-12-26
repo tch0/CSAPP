@@ -36,3 +36,5 @@
 !*.txt
 
 # add all specific files that need to be tracked here
+# track assembly source files
+!*.s
