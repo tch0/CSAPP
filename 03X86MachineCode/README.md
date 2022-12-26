@@ -1866,11 +1866,23 @@ test_of_parameters:
 ```
 - Windows汇编：
 ```x86asm
-
+; a in %cl, b in %dx, c in %r8d, d in %r9d
+; pa in 40(%rsp), pb in 48(%rsp), pc in 56(%rsp), pd in 64(%rsp)
+test_of_parameters:
+	movq	40(%rsp), %rax
+	movb	%cl, (%rax)
+	movq	48(%rsp), %rax
+	movw	%dx, (%rax)
+	movq	56(%rsp), %rax
+	movl	%r8d, (%rax)
+	movq	64(%rsp), %rax
+	movl	%r9d, (%rax)
+	ret
 ```
 
-结论：TODO。
-
+结论：
+- 不同系统，不同编译器上调用约定不同，怎样传参的约定也就不一样，本章的所有东西都是基于Linux的，Windows上会有区别，但是道理是相同的。
+- 至于具体的调用约定则有需要再探讨。
 
 ## 补充：C语言内联汇编
 
