@@ -6,4 +6,5 @@
 - [第四章：处理器体系结构](./04CPUArchitecture)
 - [第五章：优化程序性能](./05Optimization)
 - [第六章：存储器层次结构](./06Memory)
+- [第七章：链接](./07Linking)
 - [第九章：虚拟内存](./09VirtualMemory)
