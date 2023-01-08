@@ -759,8 +759,12 @@ RETURN VALUE
 
 ## 补充资料
 
-- 系统编程：[UNIX环境高级编程](https://book.douban.com/subject/25900403/)
+- 系统编程：
+    - [UNIX环境高级编程](https://book.douban.com/subject/25900403/)
+    - [Linux系统编程手册](https://book.douban.com/subject/25809330/)
 - 操作系统书籍：
     - [操作系统概念](https://book.douban.com/subject/30297919/)
     - [现代操作系统](https://book.douban.com/subject/27096665/)
     - [深入理解Linux内核](https://book.douban.com/subject/1230516/)
+    - [操作系统——精髓与设计原理](https://book.douban.com/subject/26993995/)
+- [Intel® 64 and IA-32 Architectures Software Developer’s Manual](https://cdrdv2-public.intel.com/671200/325462-sdm-vol-1-2abcd-3abcd.pdf), CHAPTER 6 PROCEDURE CALLS, INTERRUPTS, AND EXCEPTIONS。

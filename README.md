@@ -9,3 +9,34 @@
 - [第七章：链接](./07Linking)
 - [第八章：异常控制流](./08ExceptionalControlFlow)
 - [第九章：虚拟内存](./09VirtualMemory)
+
+资料补充：
+- Posix标准：[https://www.opengroup.org/membership/forums/platform/unix](https://www.opengroup.org/membership/forums/platform/unix)
+- Linux官网：[https://www.linux.org/](https://www.linux.org/)
+- GNU官网：[https://www.gnu.org/](https://www.gnu.org/)
+- [Intel® 64 and IA-32 Architectures Software Developer’s Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+- [ELF-64 Object File Format, Version 1.5 Draft 2, 1998](https://uclibc.org/docs/elf-64-gen.pdf)
+- 体系结构：
+    - [计算机体系结构：量化研究方法](https://book.douban.com/subject/36108789/)
+    - [计算机组成与设计：硬件软件接口](https://book.douban.com/subject/26604008/)
+    - [现代处理器设计：超标量处理器基础](https://book.douban.com/subject/1161528/)
+- 编译与链接：
+    - [高级编译器设计与实现](高级编译器设计与实现)
+    - [链接器和加载器](https://book.douban.com/subject/4083265/)
+    - [程序员的自我修养——链接、装载与库](https://book.douban.com/subject/3652388/)
+- 操作系统：
+    - [操作系统概念](https://book.douban.com/subject/30297919/)
+    - [现代操作系统](https://book.douban.com/subject/27096665/)
+    - [深入理解Linux内核](https://book.douban.com/subject/1230516/)
+    - [操作系统——精髓与设计原理](https://book.douban.com/subject/26993995/)
+- 系统编程：
+    - [UNIX环境高级编程](https://book.douban.com/subject/25900403/)
+    - [Linux系统编程手册](https://book.douban.com/subject/25809330/)
+- 算法：
+    - [计算机程序设计艺术](https://book.douban.com/subject/26681685/)
+- 计算机网络：
+    - [计算机网络：自顶向下方法](https://book.douban.com/subject/30280001/)
+    - [计算机网络：系统方法](https://book.douban.com/subject/26417896/)
+    - [计算机网络](https://book.douban.com/subject/36022287/)
+    - [TCP/IP详解 卷1：协议](https://book.douban.com/subject/26825411/)，以及卷2，卷3
+    - [Unix网络编程](https://book.douban.com/subject/4859464/)，卷1：套接字联网API，卷2：进程间通信
