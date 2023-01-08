@@ -7,4 +7,5 @@
 - [第五章：优化程序性能](./05Optimization)
 - [第六章：存储器层次结构](./06Memory)
 - [第七章：链接](./07Linking)
+- [第八章：异常控制流](./08ExceptionalControlFlow)
 - [第九章：虚拟内存](./09VirtualMemory)
