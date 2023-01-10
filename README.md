@@ -10,6 +10,8 @@
 - [第八章：异常控制流](./08ExceptionalControlFlow)
 - [第九章：虚拟内存](./09VirtualMemory)
 - [第十章：系统级I/O](./10SystemIO)
+- [第十一章：网络编程](./11Network)
+- [第十二章：并发编程](./12Concurrency)
 
 资料补充：
 - Posix标准：[https://www.opengroup.org/membership/forums/platform/unix](https://www.opengroup.org/membership/forums/platform/unix)
